@@ -15,9 +15,29 @@
 
 ---
 
-## 🛠 How to Run
+##  How to Run
 
 1. **Clone** the repository or download the source code.
 2. **Compile** the program using a C++ compiler:
    ```bash
    g++ -o kmap_minimizer kmap_minimizer.cpp
+   ./kmap_minimizer
+## Follow this prompts to enter 
+
+1. Number of variables (between 2 and 5)
+2. Minterms (space separated, end input with -1)
+3. Don’t care terms (optional, end input with -1)
+
+## Example: 
+
+```bash
+Enter number of variables (2 to 5): 4
+Enter minterms (space separated), end with -1:
+1 3 7 8 -1
+Enter don't care terms (space separated), end with -1:
+2 5 -1
+
+Simplified SOP Expression:
+A'B'C + AB + A'BC'
+
+
