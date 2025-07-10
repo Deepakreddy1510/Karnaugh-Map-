@@ -1,4 +1,3 @@
-# Karnaugh-Map-
 # Karnaugh-Map Minimizer
 
 **Karnaugh Map (K-Map) Minimizer** built in **C++**, capable of simplifying Boolean expressions for up to **5 variables**. It uses the **Quine–McCluskey algorithm** to output the minimized expression in **Sum of Products (SOP)** form.
