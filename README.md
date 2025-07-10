@@ -30,7 +30,7 @@
 
 ## Example: 
 
-```bash
+```text
 Enter number of variables (2 to 5): 4
 Enter minterms (space separated), end with -1:
 1 3 7 8 -1
